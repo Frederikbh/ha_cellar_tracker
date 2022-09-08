@@ -106,7 +106,7 @@ class WineCellarData:
 
       data["total_bottles"] = {}
       data["total_bottles"]["count"] = len(df)
-        data["total_bottles"]["wines"] = list
+      data["total_bottles"]["wines"] = list
       data["total_value"] = df['Valuation'].sum()
       data["average_value"] = df['Valuation'].mean()
       self._data = data
