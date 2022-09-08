@@ -104,7 +104,7 @@ class WineCellarData:
           data[group][row]["sub_type"] = row
 
 
-
+      data["wines"] = list
       data["total_bottles"] = len(df)
       data["total_value"] = df['Valuation'].sum()
       data["average_value"] = df['Valuation'].mean()
